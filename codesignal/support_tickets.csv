@@ -1,0 +1,601 @@
+ticket_id,customer_id,created_date,category,priority,resolved,resolution_days,satisfaction_score
+1,99,2022-01-01,Performance,Low,1,21.0,4.0
+2,152,2022-01-01,Bug,Medium,1,22.0,1.0
+3,19,2022-01-02,Account,Medium,1,2.0,2.0
+4,146,2022-01-02,Feature Request,Medium,1,15.0,2.0
+5,192,2022-01-03,Bug,Low,1,14.0,5.0
+6,116,2022-01-03,Billing,Critical,1,19.0,2.0
+7,125,2022-01-04,Feature Request,High,1,11.0,5.0
+8,88,2022-01-04,Bug,Medium,1,,3.0
+9,35,2022-01-05,Performance,Medium,1,6.0,5.0
+10,190,2022-01-05,Billing,Low,0,20.0,5.0
+11,1,2022-01-06,Performance,Medium,1,9.0,
+12,153,2022-01-06,Bug,Medium,1,5.0,5.0
+13,173,2022-01-07,Performance,Medium,1,20.0,
+14,177,2022-01-07,Bug,Critical,0,2.0,5.0
+15,126,2022-01-08,Bug,Medium,0,6.0,5.0
+16,89,2022-01-08,Performance,Medium,1,26.0,3.0
+17,144,2022-01-09,Bug,High,0,18.0,3.0
+18,147,2022-01-09,Feature Request,Low,0,28.0,3.0
+19,151,2022-01-10,Bug,Medium,1,29.0,4.0
+20,25,2022-01-10,Account,Medium,1,23.0,4.0
+21,16,2022-01-11,Bug,Medium,1,19.0,5.0
+22,182,2022-01-11,Account,High,0,,
+23,73,2022-01-12,Bug,Medium,1,27.0,4.0
+24,129,2022-01-12,Bug,High,0,21.0,4.0
+25,42,2022-01-13,Performance,Medium,1,,
+26,147,2022-01-13,Feature Request,Medium,1,27.0,3.0
+27,162,2022-01-14,Feature Request,High,1,6.0,5.0
+28,80,2022-01-14,Billing,Low,1,14.0,3.0
+29,104,2022-01-15,Performance,Low,1,,5.0
+30,183,2022-01-15,Performance,Medium,1,,3.0
+31,146,2022-01-16,Feature Request,Low,0,24.0,5.0
+32,34,2022-01-16,Performance,Low,1,29.0,4.0
+33,89,2022-01-17,Feature Request,Medium,1,13.0,3.0
+34,125,2022-01-17,Performance,Medium,1,11.0,3.0
+35,45,2022-01-18,Bug,Medium,1,12.0,4.0
+36,134,2022-01-18,Feature Request,Critical,0,19.0,
+37,21,2022-01-19,Feature Request,Medium,1,19.0,5.0
+38,122,2022-01-19,Account,High,0,21.0,4.0
+39,70,2022-01-20,Performance,Low,1,27.0,4.0
+40,96,2022-01-20,Performance,Medium,1,26.0,4.0
+41,105,2022-01-21,Feature Request,High,1,19.0,5.0
+42,48,2022-01-21,Bug,Medium,1,,5.0
+43,39,2022-01-22,Bug,High,1,26.0,4.0
+44,31,2022-01-22,Bug,Medium,1,13.0,5.0
+45,10,2022-01-23,Performance,Low,1,28.0,5.0
+46,30,2022-01-23,Account,Medium,1,14.0,
+47,18,2022-01-24,Feature Request,Medium,1,,
+48,188,2022-01-24,Billing,High,1,18.0,5.0
+49,88,2022-01-25,Account,Low,1,12.0,5.0
+50,125,2022-01-25,Billing,Critical,1,4.0,3.0
+51,73,2022-01-26,Account,Critical,0,10.0,5.0
+52,15,2022-01-26,Bug,Low,1,29.0,4.0
+53,4,2022-01-27,Performance,Medium,1,17.0,3.0
+54,191,2022-01-27,Billing,High,0,4.0,4.0
+55,168,2022-01-28,Account,Critical,1,12.0,5.0
+56,9,2022-01-28,Performance,Medium,1,13.0,3.0
+57,109,2022-01-29,Billing,Medium,1,,4.0
+58,137,2022-01-29,Feature Request,Medium,1,27.0,4.0
+59,154,2022-01-30,Account,Medium,1,,1.0
+60,132,2022-01-30,Feature Request,Low,1,4.0,3.0
+61,16,2022-01-31,Bug,High,0,10.0,5.0
+62,143,2022-01-31,Feature Request,Low,1,25.0,5.0
+63,99,2022-02-01,Feature Request,Low,1,3.0,4.0
+64,121,2022-02-01,Account,Medium,1,15.0,5.0
+65,52,2022-02-02,Bug,Medium,1,2.0,5.0
+66,69,2022-02-02,Feature Request,Medium,1,25.0,4.0
+67,5,2022-02-03,Performance,Medium,1,25.0,5.0
+68,20,2022-02-03,Billing,Medium,1,17.0,
+69,79,2022-02-04,Feature Request,Low,1,6.0,4.0
+70,146,2022-02-04,Bug,Medium,0,26.0,3.0
+71,111,2022-02-05,Feature Request,Critical,0,8.0,
+72,2,2022-02-05,Billing,Medium,1,3.0,4.0
+73,93,2022-02-06,Bug,Medium,1,27.0,2.0
+74,13,2022-02-06,Account,Medium,1,25.0,4.0
+75,4,2022-02-07,Bug,Critical,0,18.0,4.0
+76,170,2022-02-07,Account,Low,1,22.0,5.0
+77,109,2022-02-08,Bug,Medium,1,1.0,4.0
+78,74,2022-02-08,Billing,High,1,29.0,3.0
+79,189,2022-02-09,Billing,Medium,1,16.0,5.0
+80,95,2022-02-09,Bug,Low,1,7.0,4.0
+81,105,2022-02-10,Feature Request,Medium,1,3.0,3.0
+82,8,2022-02-10,Billing,Low,1,23.0,4.0
+83,67,2022-02-11,Account,Medium,1,4.0,5.0
+84,191,2022-02-11,Account,High,1,9.0,1.0
+85,110,2022-02-12,Performance,Low,1,,5.0
+86,9,2022-02-12,Account,High,0,19.0,4.0
+87,117,2022-02-13,Performance,Low,1,15.0,4.0
+88,11,2022-02-13,Bug,High,0,8.0,4.0
+89,99,2022-02-14,Bug,Medium,1,6.0,4.0
+90,42,2022-02-14,Bug,Low,1,18.0,5.0
+91,141,2022-02-15,Feature Request,Low,1,19.0,3.0
+92,164,2022-02-15,Feature Request,Critical,1,,5.0
+93,120,2022-02-16,Performance,Low,1,15.0,2.0
+94,141,2022-02-16,Account,Low,1,26.0,
+95,12,2022-02-17,Account,Medium,1,,4.0
+96,37,2022-02-17,Bug,Medium,1,,5.0
+97,74,2022-02-18,Billing,Medium,1,6.0,4.0
+98,73,2022-02-18,Feature Request,Low,0,,4.0
+99,52,2022-02-19,Feature Request,Low,1,17.0,3.0
+100,199,2022-02-19,Bug,Low,0,,
+101,130,2022-02-20,Feature Request,Low,1,19.0,4.0
+102,56,2022-02-20,Bug,Medium,1,5.0,5.0
+103,60,2022-02-21,Performance,High,0,23.0,5.0
+104,23,2022-02-21,Account,Low,1,7.0,4.0
+105,103,2022-02-22,Billing,Medium,1,19.0,5.0
+106,40,2022-02-22,Account,Medium,1,20.0,5.0
+107,64,2022-02-23,Account,Critical,0,26.0,5.0
+108,85,2022-02-23,Performance,Critical,0,7.0,4.0
+109,151,2022-02-24,Feature Request,High,1,24.0,4.0
+110,157,2022-02-24,Billing,Low,1,2.0,3.0
+111,179,2022-02-25,Feature Request,Low,1,25.0,5.0
+112,197,2022-02-25,Account,Medium,1,23.0,4.0
+113,89,2022-02-26,Bug,Low,1,,4.0
+114,31,2022-02-26,Account,Medium,1,13.0,
+115,178,2022-02-27,Feature Request,High,1,8.0,1.0
+116,20,2022-02-27,Account,High,1,6.0,5.0
+117,183,2022-02-28,Bug,High,1,6.0,
+118,130,2022-02-28,Performance,Medium,1,9.0,5.0
+119,153,2022-03-01,Feature Request,Medium,0,4.0,5.0
+120,13,2022-03-01,Account,Medium,1,27.0,4.0
+121,122,2022-03-02,Feature Request,Low,1,11.0,3.0
+122,103,2022-03-02,Performance,High,1,5.0,5.0
+123,106,2022-03-03,Account,Low,1,25.0,4.0
+124,119,2022-03-03,Account,Medium,1,,3.0
+125,70,2022-03-04,Feature Request,Medium,1,20.0,5.0
+126,195,2022-03-04,Feature Request,Medium,1,7.0,4.0
+127,186,2022-03-05,Bug,High,1,27.0,
+128,99,2022-03-05,Performance,Medium,1,15.0,5.0
+129,82,2022-03-06,Bug,High,1,25.0,5.0
+130,75,2022-03-06,Account,Low,0,15.0,5.0
+131,118,2022-03-07,Feature Request,Medium,1,,5.0
+132,84,2022-03-07,Account,High,1,13.0,5.0
+133,192,2022-03-08,Account,Medium,1,11.0,4.0
+134,69,2022-03-08,Billing,Critical,1,28.0,4.0
+135,59,2022-03-09,Billing,Low,1,13.0,5.0
+136,188,2022-03-09,Account,Medium,1,26.0,5.0
+137,126,2022-03-10,Feature Request,Medium,1,22.0,4.0
+138,111,2022-03-10,Account,Critical,1,28.0,1.0
+139,62,2022-03-11,Billing,Low,1,24.0,5.0
+140,144,2022-03-11,Feature Request,High,1,29.0,2.0
+141,128,2022-03-12,Account,Medium,1,9.0,
+142,105,2022-03-12,Performance,Low,1,10.0,
+143,68,2022-03-13,Performance,Medium,1,4.0,3.0
+144,15,2022-03-13,Account,Medium,1,17.0,5.0
+145,183,2022-03-14,Feature Request,Medium,1,14.0,2.0
+146,35,2022-03-14,Account,High,0,24.0,5.0
+147,183,2022-03-15,Account,Medium,1,18.0,4.0
+148,14,2022-03-15,Billing,Medium,0,11.0,5.0
+149,177,2022-03-16,Performance,Medium,1,16.0,4.0
+150,102,2022-03-16,Billing,Low,1,1.0,3.0
+151,100,2022-03-17,Billing,Low,1,29.0,4.0
+152,7,2022-03-17,Account,Medium,0,7.0,2.0
+153,30,2022-03-18,Billing,Medium,1,28.0,4.0
+154,49,2022-03-18,Performance,Low,1,10.0,1.0
+155,144,2022-03-19,Billing,Medium,1,,4.0
+156,111,2022-03-19,Performance,Medium,1,27.0,5.0
+157,179,2022-03-20,Billing,Low,1,28.0,5.0
+158,72,2022-03-20,Performance,Medium,0,,5.0
+159,80,2022-03-21,Billing,Low,0,25.0,
+160,83,2022-03-21,Billing,Critical,1,3.0,2.0
+161,42,2022-03-22,Feature Request,High,0,22.0,2.0
+162,17,2022-03-22,Performance,High,1,,4.0
+163,191,2022-03-23,Performance,Low,1,,5.0
+164,173,2022-03-23,Performance,High,1,26.0,
+165,7,2022-03-24,Bug,High,1,25.0,1.0
+166,155,2022-03-24,Billing,High,0,15.0,4.0
+167,10,2022-03-25,Performance,Low,1,2.0,3.0
+168,34,2022-03-25,Bug,Medium,1,24.0,5.0
+169,36,2022-03-26,Feature Request,High,1,14.0,5.0
+170,153,2022-03-26,Performance,Medium,1,16.0,2.0
+171,6,2022-03-27,Performance,Medium,1,,4.0
+172,152,2022-03-27,Bug,Medium,0,4.0,5.0
+173,146,2022-03-28,Billing,Medium,1,18.0,5.0
+174,134,2022-03-28,Feature Request,Low,1,24.0,1.0
+175,29,2022-03-29,Performance,Medium,1,27.0,5.0
+176,126,2022-03-29,Billing,Low,1,5.0,4.0
+177,153,2022-03-30,Feature Request,Medium,1,,5.0
+178,183,2022-03-30,Account,Low,1,27.0,5.0
+179,81,2022-03-31,Account,Medium,1,7.0,3.0
+180,174,2022-03-31,Feature Request,Low,1,15.0,2.0
+181,152,2022-04-01,Bug,Medium,1,,5.0
+182,75,2022-04-01,Feature Request,High,1,1.0,3.0
+183,26,2022-04-02,Feature Request,Low,1,24.0,5.0
+184,127,2022-04-02,Bug,Low,1,4.0,5.0
+185,115,2022-04-03,Bug,Low,1,,5.0
+186,126,2022-04-03,Billing,High,0,25.0,4.0
+187,28,2022-04-04,Billing,Medium,1,1.0,4.0
+188,131,2022-04-04,Bug,Medium,1,,5.0
+189,75,2022-04-05,Account,Low,1,18.0,1.0
+190,166,2022-04-05,Account,Medium,1,14.0,5.0
+191,189,2022-04-06,Feature Request,High,1,22.0,5.0
+192,78,2022-04-06,Performance,High,0,,4.0
+193,179,2022-04-07,Feature Request,Medium,1,10.0,5.0
+194,90,2022-04-07,Feature Request,Low,1,,3.0
+195,176,2022-04-08,Performance,Low,1,17.0,4.0
+196,21,2022-04-08,Bug,Low,1,4.0,
+197,54,2022-04-09,Account,Low,1,,
+198,184,2022-04-09,Feature Request,Low,0,15.0,4.0
+199,103,2022-04-10,Performance,Low,1,26.0,
+200,59,2022-04-10,Billing,Medium,1,16.0,4.0
+201,72,2022-04-11,Feature Request,Critical,1,21.0,4.0
+202,179,2022-04-11,Account,Medium,1,13.0,3.0
+203,20,2022-04-12,Bug,High,1,9.0,
+204,112,2022-04-12,Feature Request,High,1,11.0,3.0
+205,59,2022-04-13,Feature Request,Low,1,,4.0
+206,71,2022-04-13,Performance,High,1,6.0,4.0
+207,137,2022-04-14,Billing,Low,1,,5.0
+208,109,2022-04-14,Billing,Medium,0,22.0,4.0
+209,129,2022-04-15,Bug,Medium,1,6.0,3.0
+210,157,2022-04-15,Account,Critical,1,13.0,3.0
+211,191,2022-04-16,Bug,Low,1,22.0,4.0
+212,200,2022-04-16,Feature Request,Low,1,24.0,5.0
+213,56,2022-04-17,Feature Request,Critical,1,22.0,4.0
+214,196,2022-04-17,Billing,Low,1,,5.0
+215,35,2022-04-18,Account,Medium,1,,3.0
+216,123,2022-04-18,Performance,High,0,27.0,5.0
+217,131,2022-04-19,Account,High,1,,4.0
+218,104,2022-04-19,Feature Request,Critical,1,20.0,2.0
+219,7,2022-04-20,Performance,Critical,1,14.0,4.0
+220,27,2022-04-20,Account,Low,1,,5.0
+221,1,2022-04-21,Account,High,1,26.0,5.0
+222,199,2022-04-21,Performance,Medium,0,5.0,3.0
+223,172,2022-04-22,Feature Request,Medium,1,26.0,5.0
+224,87,2022-04-22,Account,Low,1,4.0,2.0
+225,41,2022-04-23,Performance,Medium,1,2.0,1.0
+226,123,2022-04-23,Feature Request,Critical,1,7.0,4.0
+227,75,2022-04-24,Performance,Critical,1,,5.0
+228,42,2022-04-24,Performance,Medium,1,16.0,5.0
+229,117,2022-04-25,Account,Low,1,10.0,4.0
+230,161,2022-04-25,Feature Request,Medium,1,18.0,1.0
+231,178,2022-04-26,Account,High,1,17.0,4.0
+232,63,2022-04-26,Bug,High,0,21.0,1.0
+233,165,2022-04-27,Bug,Medium,1,28.0,2.0
+234,187,2022-04-27,Feature Request,Low,1,,4.0
+235,127,2022-04-28,Performance,Medium,1,,4.0
+236,176,2022-04-28,Account,Medium,1,1.0,3.0
+237,133,2022-04-29,Account,Critical,1,,4.0
+238,48,2022-04-29,Feature Request,Medium,1,1.0,2.0
+239,3,2022-04-30,Feature Request,Medium,1,,3.0
+240,116,2022-04-30,Bug,Medium,1,25.0,5.0
+241,175,2022-05-01,Billing,Low,1,26.0,3.0
+242,190,2022-05-01,Feature Request,Critical,0,13.0,5.0
+243,99,2022-05-02,Billing,Medium,1,27.0,2.0
+244,116,2022-05-02,Feature Request,Medium,1,28.0,4.0
+245,14,2022-05-03,Performance,Medium,1,,3.0
+246,191,2022-05-03,Performance,Medium,0,5.0,2.0
+247,112,2022-05-04,Bug,Medium,1,9.0,4.0
+248,61,2022-05-04,Bug,High,1,25.0,
+249,159,2022-05-05,Billing,Low,1,17.0,2.0
+250,95,2022-05-05,Feature Request,Medium,1,16.0,4.0
+251,17,2022-05-06,Account,Low,0,8.0,5.0
+252,124,2022-05-06,Bug,Medium,1,17.0,4.0
+253,24,2022-05-07,Account,Low,1,15.0,5.0
+254,116,2022-05-07,Account,Medium,0,24.0,3.0
+255,151,2022-05-08,Feature Request,High,1,1.0,
+256,82,2022-05-08,Billing,High,1,12.0,4.0
+257,50,2022-05-09,Feature Request,Medium,1,5.0,4.0
+258,79,2022-05-09,Bug,Medium,1,24.0,5.0
+259,79,2022-05-10,Account,Low,1,6.0,4.0
+260,70,2022-05-10,Feature Request,Medium,1,25.0,4.0
+261,27,2022-05-11,Feature Request,High,1,1.0,5.0
+262,15,2022-05-11,Feature Request,Low,1,25.0,4.0
+263,50,2022-05-12,Bug,Medium,1,1.0,3.0
+264,36,2022-05-12,Billing,High,1,10.0,5.0
+265,8,2022-05-13,Feature Request,High,1,10.0,3.0
+266,79,2022-05-13,Bug,Low,1,,5.0
+267,131,2022-05-14,Account,Medium,1,,
+268,190,2022-05-14,Performance,Low,1,19.0,4.0
+269,47,2022-05-15,Bug,Low,1,28.0,4.0
+270,105,2022-05-15,Performance,Critical,1,11.0,1.0
+271,98,2022-05-16,Feature Request,High,1,,1.0
+272,96,2022-05-16,Feature Request,High,1,,
+273,189,2022-05-17,Bug,Low,1,2.0,2.0
+274,160,2022-05-17,Performance,High,1,9.0,4.0
+275,116,2022-05-18,Feature Request,Medium,1,24.0,5.0
+276,13,2022-05-18,Account,Medium,0,17.0,5.0
+277,1,2022-05-19,Billing,Medium,1,28.0,4.0
+278,34,2022-05-19,Billing,Low,1,14.0,4.0
+279,190,2022-05-20,Feature Request,High,1,,5.0
+280,79,2022-05-20,Performance,Medium,0,29.0,
+281,78,2022-05-21,Feature Request,Low,1,17.0,4.0
+282,121,2022-05-21,Performance,Low,1,,4.0
+283,93,2022-05-22,Account,Low,1,,1.0
+284,98,2022-05-22,Performance,Low,0,28.0,2.0
+285,82,2022-05-23,Feature Request,Medium,1,20.0,4.0
+286,199,2022-05-23,Account,High,1,18.0,
+287,159,2022-05-24,Bug,Low,0,3.0,5.0
+288,192,2022-05-24,Billing,Low,0,,
+289,153,2022-05-25,Feature Request,Medium,0,,4.0
+290,38,2022-05-25,Feature Request,High,1,18.0,5.0
+291,14,2022-05-26,Feature Request,Medium,1,4.0,5.0
+292,136,2022-05-26,Account,Medium,1,17.0,5.0
+293,91,2022-05-27,Bug,Medium,1,,4.0
+294,54,2022-05-27,Performance,Low,1,5.0,4.0
+295,130,2022-05-28,Bug,Low,1,14.0,5.0
+296,101,2022-05-28,Account,High,1,10.0,4.0
+297,89,2022-05-29,Feature Request,Medium,1,15.0,
+298,56,2022-05-29,Billing,Medium,1,1.0,3.0
+299,94,2022-05-30,Feature Request,High,1,16.0,5.0
+300,93,2022-05-30,Performance,Medium,1,,5.0
+301,84,2022-05-31,Billing,Low,1,,5.0
+302,85,2022-05-31,Feature Request,Medium,1,20.0,4.0
+303,189,2022-06-01,Billing,Low,1,6.0,
+304,22,2022-06-01,Bug,Low,1,24.0,5.0
+305,35,2022-06-02,Account,Medium,1,29.0,4.0
+306,16,2022-06-02,Feature Request,High,1,22.0,5.0
+307,50,2022-06-03,Performance,Critical,0,,4.0
+308,122,2022-06-03,Bug,Medium,1,2.0,4.0
+309,128,2022-06-04,Feature Request,Low,1,1.0,4.0
+310,113,2022-06-04,Bug,Low,0,,5.0
+311,171,2022-06-05,Performance,High,1,,4.0
+312,17,2022-06-05,Feature Request,Medium,0,9.0,5.0
+313,80,2022-06-06,Performance,Medium,0,22.0,4.0
+314,186,2022-06-06,Billing,High,1,12.0,3.0
+315,130,2022-06-07,Performance,High,0,17.0,
+316,132,2022-06-07,Billing,High,1,25.0,4.0
+317,85,2022-06-08,Feature Request,Low,1,28.0,
+318,167,2022-06-08,Billing,High,1,,3.0
+319,94,2022-06-09,Feature Request,High,1,15.0,3.0
+320,134,2022-06-09,Feature Request,Low,0,19.0,5.0
+321,81,2022-06-10,Account,Medium,1,27.0,5.0
+322,69,2022-06-10,Feature Request,Medium,1,22.0,3.0
+323,69,2022-06-11,Billing,Critical,1,,3.0
+324,148,2022-06-11,Account,Low,1,29.0,5.0
+325,192,2022-06-12,Account,Medium,1,26.0,4.0
+326,16,2022-06-12,Feature Request,Low,1,27.0,5.0
+327,51,2022-06-13,Performance,High,0,12.0,4.0
+328,105,2022-06-13,Performance,Low,1,14.0,4.0
+329,165,2022-06-14,Account,Low,0,9.0,
+330,197,2022-06-14,Feature Request,Medium,1,27.0,3.0
+331,170,2022-06-15,Performance,Critical,1,13.0,4.0
+332,185,2022-06-15,Feature Request,Low,1,3.0,5.0
+333,66,2022-06-16,Feature Request,Low,1,,3.0
+334,9,2022-06-16,Account,High,1,,4.0
+335,107,2022-06-17,Account,Medium,0,14.0,4.0
+336,100,2022-06-17,Bug,Critical,1,21.0,4.0
+337,86,2022-06-18,Performance,Low,0,10.0,4.0
+338,64,2022-06-18,Performance,Medium,1,16.0,4.0
+339,22,2022-06-19,Performance,Low,1,7.0,4.0
+340,162,2022-06-19,Billing,Low,1,,4.0
+341,183,2022-06-20,Feature Request,Medium,0,,5.0
+342,157,2022-06-20,Account,Medium,1,20.0,2.0
+343,166,2022-06-21,Performance,High,0,23.0,5.0
+344,110,2022-06-21,Bug,Medium,0,,
+345,97,2022-06-22,Performance,Medium,1,11.0,4.0
+346,18,2022-06-22,Feature Request,Medium,1,16.0,5.0
+347,71,2022-06-23,Feature Request,Critical,1,20.0,4.0
+348,193,2022-06-23,Account,Low,1,4.0,5.0
+349,127,2022-06-24,Billing,Low,1,22.0,
+350,97,2022-06-24,Account,Medium,1,22.0,3.0
+351,1,2022-06-25,Performance,Medium,1,23.0,4.0
+352,132,2022-06-25,Bug,Low,1,17.0,4.0
+353,4,2022-06-26,Account,Critical,1,13.0,4.0
+354,125,2022-06-26,Billing,Low,1,11.0,2.0
+355,82,2022-06-27,Account,High,1,3.0,5.0
+356,27,2022-06-27,Feature Request,Low,1,9.0,1.0
+357,171,2022-06-28,Performance,Medium,1,,4.0
+358,59,2022-06-28,Performance,Critical,1,22.0,5.0
+359,32,2022-06-29,Performance,Low,1,21.0,3.0
+360,161,2022-06-29,Performance,Critical,1,,
+361,28,2022-06-30,Performance,Medium,1,16.0,5.0
+362,106,2022-06-30,Performance,Critical,1,19.0,4.0
+363,105,2022-07-01,Bug,Medium,1,27.0,4.0
+364,183,2022-07-01,Billing,Medium,0,5.0,3.0
+365,188,2022-07-02,Performance,Low,1,14.0,5.0
+366,70,2022-07-02,Billing,Medium,1,,3.0
+367,62,2022-07-03,Performance,Low,1,3.0,5.0
+368,34,2022-07-03,Account,Low,1,4.0,5.0
+369,87,2022-07-04,Performance,Low,1,,3.0
+370,114,2022-07-04,Feature Request,Medium,1,16.0,5.0
+371,106,2022-07-05,Bug,High,1,21.0,1.0
+372,56,2022-07-05,Account,Low,1,26.0,
+373,113,2022-07-06,Account,Low,1,25.0,2.0
+374,13,2022-07-06,Feature Request,Medium,1,4.0,5.0
+375,184,2022-07-07,Performance,Low,0,19.0,3.0
+376,18,2022-07-07,Bug,Low,1,26.0,5.0
+377,182,2022-07-08,Account,Low,1,17.0,4.0
+378,113,2022-07-08,Bug,Critical,1,13.0,3.0
+379,171,2022-07-09,Account,High,1,26.0,4.0
+380,39,2022-07-09,Performance,Medium,1,22.0,4.0
+381,189,2022-07-10,Account,Medium,1,23.0,5.0
+382,170,2022-07-10,Account,Medium,1,26.0,5.0
+383,79,2022-07-11,Billing,Medium,1,,4.0
+384,146,2022-07-11,Performance,Medium,1,28.0,4.0
+385,151,2022-07-12,Feature Request,Medium,1,1.0,1.0
+386,182,2022-07-12,Feature Request,Low,1,12.0,4.0
+387,30,2022-07-13,Performance,Low,1,4.0,4.0
+388,98,2022-07-13,Feature Request,Medium,1,11.0,4.0
+389,58,2022-07-14,Performance,High,1,5.0,3.0
+390,196,2022-07-14,Feature Request,Medium,1,,4.0
+391,67,2022-07-15,Billing,High,1,17.0,
+392,71,2022-07-15,Feature Request,Critical,0,8.0,4.0
+393,146,2022-07-16,Account,Low,1,6.0,4.0
+394,106,2022-07-16,Performance,Medium,1,21.0,5.0
+395,7,2022-07-17,Bug,Medium,1,29.0,5.0
+396,40,2022-07-17,Bug,Critical,0,9.0,4.0
+397,70,2022-07-18,Performance,Critical,1,,4.0
+398,193,2022-07-18,Billing,Medium,1,11.0,5.0
+399,68,2022-07-19,Feature Request,Low,1,29.0,1.0
+400,49,2022-07-19,Billing,High,1,16.0,4.0
+401,52,2022-07-20,Bug,Low,1,16.0,3.0
+402,114,2022-07-20,Performance,High,1,27.0,4.0
+403,107,2022-07-21,Performance,Critical,0,2.0,4.0
+404,29,2022-07-21,Billing,Medium,0,10.0,5.0
+405,149,2022-07-22,Billing,Medium,1,12.0,2.0
+406,78,2022-07-22,Feature Request,Medium,1,8.0,4.0
+407,9,2022-07-23,Account,Medium,0,11.0,4.0
+408,175,2022-07-23,Account,Medium,1,,4.0
+409,76,2022-07-24,Feature Request,High,1,13.0,5.0
+410,42,2022-07-24,Account,Critical,1,25.0,4.0
+411,179,2022-07-25,Bug,Critical,1,,
+412,184,2022-07-25,Account,Low,1,7.0,4.0
+413,179,2022-07-26,Feature Request,High,1,24.0,4.0
+414,198,2022-07-26,Account,High,1,3.0,5.0
+415,128,2022-07-27,Performance,Low,1,,3.0
+416,20,2022-07-27,Billing,Low,1,13.0,2.0
+417,155,2022-07-28,Bug,Low,1,19.0,5.0
+418,166,2022-07-28,Performance,Critical,0,7.0,4.0
+419,72,2022-07-29,Performance,Medium,1,9.0,5.0
+420,65,2022-07-29,Feature Request,High,1,19.0,
+421,182,2022-07-30,Billing,Low,0,13.0,4.0
+422,113,2022-07-30,Billing,High,0,22.0,4.0
+423,24,2022-07-31,Bug,Low,1,8.0,4.0
+424,128,2022-07-31,Feature Request,Medium,1,22.0,4.0
+425,175,2022-08-01,Bug,Medium,1,18.0,5.0
+426,199,2022-08-01,Account,Low,0,,5.0
+427,83,2022-08-02,Performance,High,0,23.0,4.0
+428,63,2022-08-02,Bug,Low,0,2.0,1.0
+429,185,2022-08-03,Performance,Medium,1,18.0,4.0
+430,183,2022-08-03,Feature Request,Medium,1,18.0,4.0
+431,60,2022-08-04,Account,Medium,1,,5.0
+432,99,2022-08-04,Feature Request,Low,1,,2.0
+433,62,2022-08-05,Account,Low,1,,5.0
+434,30,2022-08-05,Account,Critical,1,16.0,5.0
+435,22,2022-08-06,Performance,Low,1,11.0,5.0
+436,126,2022-08-06,Feature Request,High,1,1.0,4.0
+437,157,2022-08-07,Feature Request,Critical,1,7.0,5.0
+438,169,2022-08-07,Bug,Low,1,29.0,4.0
+439,42,2022-08-08,Feature Request,Low,1,,5.0
+440,98,2022-08-08,Bug,Medium,1,14.0,4.0
+441,193,2022-08-09,Billing,Critical,1,15.0,4.0
+442,31,2022-08-09,Billing,Critical,1,14.0,5.0
+443,158,2022-08-10,Billing,Medium,0,,2.0
+444,112,2022-08-10,Feature Request,High,1,21.0,4.0
+445,146,2022-08-11,Feature Request,Low,1,11.0,
+446,122,2022-08-11,Bug,Critical,1,,1.0
+447,17,2022-08-12,Account,Critical,1,19.0,4.0
+448,38,2022-08-12,Bug,Low,0,17.0,4.0
+449,142,2022-08-13,Billing,Low,1,27.0,5.0
+450,110,2022-08-13,Bug,Low,0,26.0,2.0
+451,184,2022-08-14,Account,Low,1,,4.0
+452,22,2022-08-14,Feature Request,High,0,11.0,2.0
+453,195,2022-08-15,Bug,Medium,1,17.0,2.0
+454,56,2022-08-15,Billing,Low,0,9.0,5.0
+455,119,2022-08-16,Billing,Medium,1,18.0,4.0
+456,147,2022-08-16,Feature Request,Critical,1,17.0,
+457,57,2022-08-17,Bug,Medium,1,12.0,1.0
+458,172,2022-08-17,Account,Medium,0,23.0,4.0
+459,35,2022-08-18,Feature Request,Low,1,22.0,2.0
+460,114,2022-08-18,Bug,Critical,1,22.0,4.0
+461,125,2022-08-19,Performance,High,0,5.0,
+462,129,2022-08-19,Billing,Low,1,11.0,5.0
+463,52,2022-08-20,Account,Low,1,4.0,1.0
+464,85,2022-08-20,Account,Low,1,,4.0
+465,198,2022-08-21,Account,Low,1,4.0,5.0
+466,165,2022-08-21,Billing,Medium,0,3.0,3.0
+467,65,2022-08-22,Bug,Critical,1,26.0,3.0
+468,179,2022-08-22,Feature Request,Medium,1,24.0,
+469,129,2022-08-23,Bug,High,0,23.0,
+470,21,2022-08-23,Feature Request,Medium,1,25.0,
+471,181,2022-08-24,Account,High,1,,5.0
+472,16,2022-08-24,Bug,High,1,7.0,5.0
+473,123,2022-08-25,Account,Low,1,26.0,4.0
+474,61,2022-08-25,Performance,Medium,1,4.0,3.0
+475,54,2022-08-26,Account,Medium,0,23.0,2.0
+476,168,2022-08-26,Account,Low,1,,5.0
+477,26,2022-08-27,Feature Request,Medium,1,12.0,5.0
+478,80,2022-08-27,Performance,Medium,1,1.0,5.0
+479,65,2022-08-28,Account,Critical,1,21.0,
+480,100,2022-08-28,Account,Medium,0,19.0,5.0
+481,74,2022-08-29,Performance,High,0,21.0,
+482,192,2022-08-29,Performance,Medium,1,20.0,3.0
+483,171,2022-08-30,Bug,High,1,18.0,5.0
+484,17,2022-08-30,Feature Request,Medium,1,,4.0
+485,121,2022-08-31,Performance,High,1,20.0,3.0
+486,187,2022-08-31,Performance,Medium,1,3.0,
+487,23,2022-09-01,Billing,Medium,1,29.0,5.0
+488,135,2022-09-01,Performance,Medium,1,17.0,2.0
+489,172,2022-09-02,Feature Request,Medium,1,12.0,1.0
+490,181,2022-09-02,Account,Low,1,10.0,5.0
+491,71,2022-09-03,Account,Low,1,8.0,4.0
+492,108,2022-09-03,Account,Low,1,15.0,
+493,79,2022-09-04,Account,High,1,,3.0
+494,162,2022-09-04,Billing,Low,1,4.0,2.0
+495,46,2022-09-05,Performance,Low,0,26.0,3.0
+496,196,2022-09-05,Account,High,1,28.0,1.0
+497,78,2022-09-06,Bug,Medium,1,21.0,1.0
+498,16,2022-09-06,Account,Medium,1,20.0,
+499,71,2022-09-07,Performance,Low,0,,4.0
+500,96,2022-09-07,Account,Critical,0,21.0,4.0
+501,147,2022-09-08,Billing,High,1,,1.0
+502,2,2022-09-08,Feature Request,High,1,15.0,3.0
+503,10,2022-09-09,Feature Request,Medium,0,17.0,5.0
+504,178,2022-09-09,Performance,High,1,12.0,4.0
+505,125,2022-09-10,Feature Request,Low,1,3.0,5.0
+506,81,2022-09-10,Feature Request,Low,1,10.0,4.0
+507,140,2022-09-11,Bug,Low,1,,4.0
+508,70,2022-09-11,Performance,Medium,1,,4.0
+509,150,2022-09-12,Performance,Medium,1,,4.0
+510,32,2022-09-12,Feature Request,Medium,1,23.0,5.0
+511,105,2022-09-13,Feature Request,Low,0,18.0,4.0
+512,84,2022-09-13,Feature Request,Medium,1,1.0,5.0
+513,129,2022-09-14,Billing,High,1,3.0,3.0
+514,182,2022-09-14,Account,Medium,1,21.0,5.0
+515,58,2022-09-15,Billing,High,1,26.0,
+516,198,2022-09-15,Performance,Low,1,27.0,4.0
+517,146,2022-09-16,Bug,High,0,12.0,4.0
+518,134,2022-09-16,Account,Medium,1,1.0,
+519,45,2022-09-17,Bug,Low,1,3.0,4.0
+520,97,2022-09-17,Performance,Low,0,3.0,3.0
+521,23,2022-09-18,Performance,Medium,1,5.0,4.0
+522,23,2022-09-18,Bug,High,0,19.0,5.0
+523,154,2022-09-19,Bug,Medium,1,29.0,5.0
+524,135,2022-09-19,Bug,Low,0,25.0,4.0
+525,79,2022-09-20,Performance,High,1,1.0,4.0
+526,44,2022-09-20,Feature Request,Medium,1,4.0,
+527,27,2022-09-21,Bug,Medium,1,29.0,2.0
+528,26,2022-09-21,Account,Medium,1,29.0,4.0
+529,97,2022-09-22,Performance,Low,1,26.0,2.0
+530,36,2022-09-22,Billing,Medium,1,26.0,5.0
+531,109,2022-09-23,Billing,Medium,1,4.0,2.0
+532,55,2022-09-23,Account,Critical,1,17.0,5.0
+533,192,2022-09-24,Feature Request,Medium,1,14.0,2.0
+534,185,2022-09-24,Bug,Medium,1,18.0,5.0
+535,69,2022-09-25,Performance,Medium,0,27.0,5.0
+536,61,2022-09-25,Bug,Critical,1,1.0,4.0
+537,130,2022-09-26,Performance,High,1,22.0,4.0
+538,55,2022-09-26,Billing,Medium,1,16.0,4.0
+539,122,2022-09-27,Bug,High,1,3.0,4.0
+540,97,2022-09-27,Account,Medium,1,,5.0
+541,80,2022-09-28,Feature Request,Medium,1,21.0,3.0
+542,87,2022-09-28,Account,Low,1,9.0,5.0
+543,38,2022-09-29,Feature Request,Medium,0,23.0,3.0
+544,119,2022-09-29,Bug,Low,1,4.0,3.0
+545,78,2022-09-30,Bug,Critical,1,,4.0
+546,157,2022-09-30,Feature Request,Medium,1,5.0,4.0
+547,154,2022-10-01,Billing,Critical,1,11.0,4.0
+548,35,2022-10-01,Performance,Medium,1,,5.0
+549,79,2022-10-02,Account,Medium,1,26.0,3.0
+550,67,2022-10-02,Account,Medium,1,9.0,1.0
+551,87,2022-10-03,Account,Low,1,,5.0
+552,157,2022-10-03,Bug,Medium,1,3.0,5.0
+553,34,2022-10-04,Account,Low,1,6.0,2.0
+554,97,2022-10-04,Performance,Medium,1,24.0,4.0
+555,169,2022-10-05,Performance,Medium,1,11.0,4.0
+556,169,2022-10-05,Feature Request,High,0,9.0,5.0
+557,151,2022-10-06,Bug,Low,0,,5.0
+558,71,2022-10-06,Performance,Low,1,15.0,5.0
+559,3,2022-10-07,Billing,Medium,1,23.0,5.0
+560,58,2022-10-07,Bug,Critical,1,,3.0
+561,32,2022-10-08,Bug,High,0,3.0,5.0
+562,31,2022-10-08,Performance,Medium,1,1.0,4.0
+563,82,2022-10-09,Billing,Medium,1,20.0,2.0
+564,43,2022-10-09,Feature Request,Low,1,,4.0
+565,135,2022-10-10,Performance,Critical,0,22.0,
+566,105,2022-10-10,Billing,Medium,1,19.0,5.0
+567,1,2022-10-11,Bug,Low,0,14.0,2.0
+568,61,2022-10-11,Billing,Medium,1,17.0,5.0
+569,14,2022-10-12,Bug,Low,1,,5.0
+570,180,2022-10-12,Performance,Critical,1,14.0,3.0
+571,6,2022-10-13,Performance,Low,1,17.0,4.0
+572,103,2022-10-13,Account,Medium,1,,5.0
+573,10,2022-10-14,Account,Low,1,27.0,4.0
+574,71,2022-10-14,Account,High,0,14.0,2.0
+575,90,2022-10-15,Performance,High,1,12.0,5.0
+576,158,2022-10-15,Feature Request,Medium,0,16.0,
+577,149,2022-10-16,Performance,Medium,1,1.0,5.0
+578,126,2022-10-16,Billing,High,0,,5.0
+579,188,2022-10-17,Performance,Low,1,6.0,4.0
+580,97,2022-10-17,Performance,Medium,0,17.0,3.0
+581,74,2022-10-18,Bug,Low,0,12.0,5.0
+582,115,2022-10-18,Bug,Critical,1,23.0,4.0
+583,191,2022-10-19,Bug,Medium,1,19.0,5.0
+584,170,2022-10-19,Performance,High,1,6.0,2.0
+585,51,2022-10-20,Feature Request,Medium,1,,4.0
+586,192,2022-10-20,Billing,Low,0,1.0,4.0
+587,56,2022-10-21,Billing,Low,1,1.0,
+588,41,2022-10-21,Feature Request,Low,1,29.0,3.0
+589,32,2022-10-22,Feature Request,Medium,1,,1.0
+590,15,2022-10-22,Billing,Low,1,6.0,3.0
+591,62,2022-10-23,Account,Low,0,16.0,5.0
+592,155,2022-10-23,Bug,High,1,25.0,3.0
+593,28,2022-10-24,Bug,Critical,1,,3.0
+594,64,2022-10-24,Billing,Medium,1,14.0,2.0
+595,187,2022-10-25,Feature Request,Medium,1,1.0,5.0
+596,186,2022-10-25,Account,Low,1,13.0,2.0
+597,130,2022-10-26,Billing,Medium,1,20.0,4.0
+598,127,2022-10-26,Bug,High,1,10.0,4.0
+599,36,2022-10-27,Performance,Low,1,24.0,4.0
+600,114,2022-10-27,Feature Request,Low,1,10.0,5.0
