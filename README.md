@@ -155,6 +155,37 @@ for num in arr:
 
 ---
 
+### 9. Index-as-Hash (In-place Cyclic Sort)
+**When to use:** Find missing/duplicate in range [1, n]; O(1) space required; array can be mutated.
+
+| Concept | Detail |
+|---------|--------|
+| Key insight | Answer is always in [1, n+1] — only care about values in that range |
+| Technique | Swap each value v to index v-1 (its "home") |
+| Advance i | Only when value is out of range, duplicate, or already in place |
+| Duplicate guard | Check `nums[val-1] != val` to avoid infinite swap loops |
+| Final scan | First index where `nums[i] != i+1` is the answer |
+| Complexity | O(n) time (each element swapped at most once), O(1) space |
+
+**Problems:** First Missing Positive, Missing Number, Find Disappeared Numbers, Find Duplicate, Set Mismatch
+
+**Template:**
+```python
+i = 0
+while i < len(nums):
+    val = nums[i]
+    if 1 <= val <= len(nums) and nums[val - 1] != val:
+        nums[val - 1], nums[i] = nums[i], nums[val - 1]
+    else:
+        i += 1
+for i in range(len(nums)):
+    if nums[i] != i + 1:
+        return i + 1
+return len(nums) + 1
+```
+
+---
+
 ## SQL Patterns
 
 ### Gap and Island (Session Attribution)
@@ -244,6 +275,8 @@ df['rolling_mean'] = df.groupby('sensor')['value'].transform(
 | `array/merge_intervals.py` | Merge overlapping intervals | Sort + sweep |
 | `array/suarray_sum.py` | Subarray sum = K | Prefix sum + hash map |
 | `array/minimal_subarra_sum.py` | Minimum size subarray sum | Sliding window |
+| `array/first_missing_positive.py` | First missing positive | Index-as-hash (cyclic sort) |
+| `array/product_array_except_self.py` | Product except self | Prefix/suffix running product |
 | `array/count_duplicates.py` | Count element frequencies | Hash map |
 | `sparse_matrix_mult.py` | Sparse matrix multiplication | Pre-group + iterate non-zeros |
 | `valid_parenthesis.py` | Valid parentheses | Stack |
