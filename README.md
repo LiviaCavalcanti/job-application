@@ -30,7 +30,36 @@ for i in range(n - 1, -1, -1):
 
 ---
 
-### 2. Sort + Sweep (Intervals)
+### 2. Sliding Window (Two Pointers)
+**When to use:** Contiguous subarray/substring with sum/count constraint; all values positive or monotonic property.
+
+| Concept | Detail |
+|---------|--------|
+| Expand | Move right pointer, add to window |
+| Shrink | While condition met, record answer, subtract left, move left |
+| Why while not if | Sum might still be valid after one shrink |
+| Record answer | Inside while, before shrinking |
+| Complexity | O(n) — each pointer moves at most n times |
+
+**Problems:** Minimum Size Subarray Sum, Longest Substring Without Repeating Chars, Minimum Window Substring, Max Consecutive Ones III
+
+**Template:**
+```python
+left = 0
+window_sum = 0
+min_len = float('inf')
+for right in range(len(nums)):
+    window_sum += nums[right]
+    while window_sum >= target:
+        min_len = min(min_len, right - left + 1)
+        window_sum -= nums[left]
+        left += 1
+return min_len if min_len != float('inf') else 0
+```
+
+---
+
+### 3. Sort + Sweep (Intervals)
 **When to use:** Merge, insert, intersect intervals; meeting rooms; scheduling.
 
 | Concept | Detail |
@@ -55,7 +84,7 @@ for start, end in intervals[1:]:
 
 ---
 
-### 3. Prefix Sum + Hash Map
+### 4. Prefix Sum + Hash Map
 **When to use:** Subarray sum equals K, contiguous subarray problems.
 
 | Concept | Detail |
@@ -78,7 +107,7 @@ for num in arr:
 
 ---
 
-### 4. Dynamic Programming (Knapsack)
+### 5. Dynamic Programming (Knapsack)
 **When to use:** Maximize/minimize value with capacity constraints; subset selection under budget.
 
 | Concept | Detail |
@@ -90,7 +119,7 @@ for num in arr:
 
 ---
 
-### 5. Stack (Bracket Matching)
+### 6. Stack (Bracket Matching)
 **When to use:** Valid parentheses, expression parsing, nested structures.
 
 | Concept | Detail |
@@ -102,7 +131,7 @@ for num in arr:
 
 ---
 
-### 6. Heap (Priority Queue)
+### 7. Heap (Priority Queue)
 **When to use:** Top-K, sliding window median, weighted sampling from streams.
 
 | Concept | Detail |
@@ -114,7 +143,7 @@ for num in arr:
 
 ---
 
-### 7. Sparse Matrix Optimization
+### 8. Sparse Matrix Optimization
 **When to use:** Matrix operations where most entries are zero.
 
 | Concept | Detail |
@@ -214,6 +243,7 @@ df['rolling_mean'] = df.groupby('sensor')['value'].transform(
 | `array/number_visible_people_queue.py` | Visible people in queue | Monotonic stack |
 | `array/merge_intervals.py` | Merge overlapping intervals | Sort + sweep |
 | `array/suarray_sum.py` | Subarray sum = K | Prefix sum + hash map |
+| `array/minimal_subarra_sum.py` | Minimum size subarray sum | Sliding window |
 | `array/count_duplicates.py` | Count element frequencies | Hash map |
 | `sparse_matrix_mult.py` | Sparse matrix multiplication | Pre-group + iterate non-zeros |
 | `valid_parenthesis.py` | Valid parentheses | Stack |
