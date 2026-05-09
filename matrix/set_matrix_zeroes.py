@@ -10,21 +10,44 @@ Output: [[1,0,1],[0,0,0],[1,0,1]]
 
 matrix = [[1,1,1],[1,0,1],[1,1,1]]
 matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
-response = [[0] * len(matrix[0])] * len(matrix)
-for i in range(len(matrix)):
-    for j in range(len(matrix[0])):
-        if matrix[i][j] == 0:
-            print('changement')
-            for k in range(len(matrix[i])):
-                if matrix[i][k] != 0:
-                    matrix[i][k] = 'a'
-            for k in range(len(matrix)):
-                if matrix[k][j] != 0:
-                    matrix[k][j] = 'a'
-            print(matrix)
-for i in range(len(matrix)):
-    for j in range(len(matrix[0])):
-        if matrix[i][j] == 'a':
-            matrix[i][j] = 0
+# response = [[0] * len(matrix[0])] * len(matrix)
+# for i in range(len(matrix)):
+#     for j in range(len(matrix[0])):
+#         if matrix[i][j] == 0:
+#             print('changement')
+#             for k in range(len(matrix[i])):
+#                 if matrix[i][k] != 0:
+#                     matrix[i][k] = 'a'
+#             for k in range(len(matrix)):
+#                 if matrix[k][j] != 0:
+#                     matrix[k][j] = 'a'
+#             print(matrix)
+# for i in range(len(matrix)):
+#     for j in range(len(matrix[0])):
+#         if matrix[i][j] == 'a':
+#             matrix[i][j] = 0
 
-print(matrix)
+# print(matrix)
+
+def set_zeroes(matrix):
+    row_zero = set()
+    col_zero = set()
+    for i in range(len(matrix)):
+        for j in range(len(matrix[i])):
+            if matrix[i][j] == 0:
+                row_zero.add(i)
+                col_zero.add(j)
+    
+    for i in row_zero:
+        for j in range(len(matrix[i])):
+            matrix[i][j] = 0
+    for j in col_zero:
+        for i in range(len(matrix)):
+            matrix[i][j] = 0
+    return matrix
+
+matrix = [[1,1,1],[1,0,1],[1,1,1]]
+print(set_zeroes(matrix))
+
+matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
+print(set_zeroes(matrix))
