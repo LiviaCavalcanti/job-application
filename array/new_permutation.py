@@ -18,25 +18,34 @@ def next_permutation(nums):
     """
     Modify array in place
     """
-
+    left = 0
     for i in range(len(nums)-2, -1, -1 ):
-        if not(nums[i] > nums[i+1]):
+        if not(nums[i] >= nums[i+1]):
             # found index where pattern is broken  
-            print(nums[i])
             j = len(nums) -1
             while j > i:
                 if nums[j] > nums[i]:
-                    print(f"nums before {nums}")
                     temp = nums[i]
                     nums[i] = nums[j]
                     nums[j] =temp
-                    print(f"nums after {nums}")
-                    break
+                    break 
                 j -= 1
+            left = i + 1
             break
+
+    
+    right = len(nums) -1
+    while left < right:
+        nums[left], nums[right] = nums[right], nums[left]
+        left += 1
+        right -= 1
+
             
 
 
 next_permutation([2,3,5,4,1])
-# next_permutation([2,4,5,3,1])
+next_permutation([2,4,5,3,1])
+next_permutation([3,2,1])
+next_permutation([1,1, 2])
+
 # next_permutation([1,2,3])
