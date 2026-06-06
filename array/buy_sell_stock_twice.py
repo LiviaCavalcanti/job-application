@@ -1,3 +1,10 @@
+"""
+Write a program that computes the maximum profit that can be made by buying and selling a share
+at most twice. The second buy must be made on another date after the first sale.
+elements of
+PROgramming interviews in python
+"""
+
 def buy_sell_twice(prices):
     min_so_far = float('inf')
     max_profif = - float('inf')
