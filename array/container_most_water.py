@@ -1,5 +1,6 @@
 """
-You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]).
+You are given an integer array height of length n. 
+There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]).
 
 Find two lines that together with the x-axis form a container, such that the container contains the most water.
 
@@ -14,14 +15,11 @@ def area(base:int, height: int) -> int:
 
 def maxArea(height: List[int]) -> int:
     # response
-    best_initial_point = 0
-    best_final_point = len(height) - 1
     biggest_area = -float('inf')
     # analyse de l'array: pointeurs
     pointer1 = 0
     pointer2 = len(height) - 1
     while pointer1 < pointer2:
-        # print(f"heighest {pointer2}, {height[pointer2]}")
         current_area = area(min(height[pointer1], height[pointer2]), pointer2-pointer1)
         biggest_area = max(biggest_area, current_area)
         
