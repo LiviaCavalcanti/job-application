@@ -12,20 +12,20 @@ maxheap = []
 def addNum(num: int) -> None:
     if len(minheap) == len(maxheap):
         heapq.heappush(minheap, num)
-        heapq.heappush(maxheap, heapq.heappop(minheap))
+        heapq.heappush(maxheap, -heapq.heappop(minheap))
     else:
-        heapq.heappush(maxheap, num)
-        heapq.heappush(minheap, heapq.heappop(maxheap))
+        heapq.heappush(maxheap, -num)
+        heapq.heappush(minheap, -heapq.heappop(maxheap))
 
 
 def findMedian() -> float:
     n = len(maxheap) + len(minheap)
     if n % 2 == 1:
-        return maxheap[0]
+        return -maxheap[0]
     else:
-        return (maxheap[0] + heapq.nlargest(1, minheap)[0]) / 2.0
+        return (-maxheap[0] +  minheap[0]) / 2.0
     
-for num in [1,2,3,4]:
+for num in [1,2,3,4, 5, 6]:
     addNum(num)
     print(minheap, maxheap)
     print(findMedian())
