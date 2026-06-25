@@ -19,8 +19,7 @@ def addNum(num: int) -> None:
 
 
 def findMedian() -> float:
-    n = len(maxheap) + len(minheap)
-    if n % 2 == 1:
+    if len(maxheap) > len(minheap):
         return -maxheap[0]
     else:
         return (-maxheap[0] +  minheap[0]) / 2.0
