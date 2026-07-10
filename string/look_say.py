@@ -1,15 +1,23 @@
+"""
+6.8 The look-and-say problem
+Write the subsequent number that is derived by describing the previous number ub terns of consecutive digits
+"""
+
 def look_say(number):
+    # avoid recreating a string everytime adds a new term
     s = []
-    for n in number:
-        if len(s) == 0:
-            s.append(n)
+    digit_count= 1
+    i =  1
+    while i <= len(number)-1:
+        if number[i-1] == number[i]:
+            digit_count +=1
         else:
-            if s[-1] == n:
-                s.append(n)
-            else:
-                print(len(s), s[-1])
-                s = [n]
+            s += [str(digit_count), number[i-1]]
+            digit_count = 1
+        i +=1
 
-    print(len(s), s[-1])
+    s += [str(digit_count), number[i-1]]
+    return ''.join(s)
 
-look_say('11221')
+
+print(look_say('111221'))
